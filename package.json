@@ -1,0 +1,20 @@
+{
+  "name": "covid-rn-api",
+  "version": "1.0.0",
+  "description": "covid rn api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
